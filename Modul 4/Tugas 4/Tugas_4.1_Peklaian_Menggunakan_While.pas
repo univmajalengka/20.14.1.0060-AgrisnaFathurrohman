@@ -10,12 +10,12 @@ i, n : integer ;
 
 begin
 clrscr;
-i := 1;
+
+i := 0;
 write ('Masukan Angka Perkalian: '); readln(n);
-writeln ('n',' * ','1 ','= ','n ');
 while i < n do
 begin
-writeln ('n',' * ',i + 1, ' = ', i + 1,'n');
+writeln (n,' * ',i + 1, ' = ', (i + 1)*n);
 i := i + 1;
 end;
 
