@@ -4,19 +4,21 @@
 
 program Aritmatika;
 uses crt;
-{Deklarasi Variable}
-var i,j,tambah,kurang,kali,a,b:integer;
-{Proses Memasukan Nilai i dan j}
+
+var a, b, i, j, tambah, kurang, kali :integer;
+
 begin
-write (' Masukan nilai i : ');readln(i);
-write (' Masukan nilai j : ');readln(j);
-{Proses Pertambaha,Kurang,Kali,Div dan Mod}
+i := 1;
+j := 2;
+writeln (' Masukan nilai i : 1');
+writeln (' Masukan nilai j : 2');
+
 tambah :=i+j;
 kurang :=i-j;
 kali   :=i*j;
 a      :=i div j;
 b      :=i mod j;
-{Hasil Akhir}
+
 writeln (' ----------------------------------');
 writeln (' |    Operasi    |  Hasil Operasi |');
 writeln (' ----------------------------------');
