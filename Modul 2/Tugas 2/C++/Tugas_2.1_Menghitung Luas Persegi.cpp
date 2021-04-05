@@ -1,6 +1,7 @@
 //Nama	: Agrisna Fathurrohman
 //NPM	: 20.14.1.0060
 //KELAS	: 2B
+//TUGAS 2.1
 //PRAKTIKUM_ALPRO_2021
 
 #include <iostream>
